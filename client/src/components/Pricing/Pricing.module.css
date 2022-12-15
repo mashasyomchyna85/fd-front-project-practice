@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    align-items: center;
+    width: 70%;
+    
+    margin-left: 17vw;
+}
+
+.text-pricing {
+    font-size: 32px;
+    font-weight: 700;
+    margin-right: 20px;
+    color: #555;
+}
+
+.select-wrapper {
+    width: 330px;
+    height: 70px;
+    background-color: #28d2d0;
+    color: white;
+    border: 1px solid lightgrey;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 5px;
+    z-index: 1;
+    text-align: left;
+    padding: 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.select-arrow {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    z-index: 1;
+}
+
+.select-menu {
+    position: absolute;
+    width: 330px;
+    height: 70px;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-size: 16px;
+    opacity: 0;
+}
+
+.img {
+    width: 330px;
+    height: 180px;
+    margin-left: 400px;
+}

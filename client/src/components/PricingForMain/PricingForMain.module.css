@@ -1,0 +1,135 @@
+body {
+    color: #333;
+    line-height: 24px;
+    margin: 15px 0;
+    padding-bottom: 12px;
+}
+
+.pricing-for-main {
+    width: 100vw;
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+
+.container {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15vw;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    width: 270px;
+}
+
+.top-box {
+    width: 270px;
+    height: 230px;
+    border: 12px solid #e0b48d;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.column:hover .top-box{
+    cursor: pointer;
+    box-shadow: 0 10px 10px #6f6f6f;
+}
+
+.text-container {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    color: #e0b48d;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.text {
+    color: grey;
+    font-size: 17px;
+}
+
+.price {
+    color: #e0b48d;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: -30px;
+    text-align: right;
+    position: absolute;
+    bottom: 70px;
+    right: 20px;
+}
+
+.price::before {
+    content: 'US$';
+    position: absolute;
+    bottom: 4px;
+    right: 50px;
+}
+
+.save {
+    color: #e0b48d;
+    font-size:b16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: right;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.grey-line {
+    border-bottom: 2px solid lightgrey;
+    margin: 12px 0;
+}
+
+.checkedText {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.check {
+    margin: 10px 20px 0;
+}
+
+.startBtn, .getStartedBtn {
+    border-radius: 6px;
+    height: 50px;
+    padding: 10px 100px;
+    text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.getStartedBtn {
+    padding: 10px 50px;
+    background-color: #28d2d0;
+    width: 270px;
+    margin: 20px 0 50px;
+}
+
+.get-started-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    margin: 30px 0 50px 15vw;
+}
+
+.start-container {
+    width: 400px;
+}
+

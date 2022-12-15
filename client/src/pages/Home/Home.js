@@ -8,6 +8,9 @@ import Footer from '../../components/Footer/Footer';
 import styles from './Home.module.sass';
 import carouselConstants from '../../carouselConstants';
 import Spinner from '../../components/Spinner/Spinner';
+import GotQuestions from '../../components/GotQuestions';
+import FindThePerfectBrand from '../../components/FindThePerfectBrand';
+
 
 const Home = (props) => {
   const [index, setIndex] = useState(0);
@@ -30,6 +33,7 @@ const Home = (props) => {
   return (
     <>
       <Header />
+    
       {isFetching ? <Spinner mtop /> : (
         <>
           <div className={styles.container}>
@@ -190,6 +194,7 @@ const Home = (props) => {
                 <img src={`${CONSTANTS.STATIC_IMAGES_PATH}gif/3-compressed.gif`} alt="compressed" />
               </div>
             </div>
+            <GotQuestions />
             <div className={styles.headerBar}>
               <h3>Names For Sale</h3>
               <p className={styles.blueUnderline}>
@@ -213,6 +218,7 @@ const Home = (props) => {
                 carouselType={carouselConstants.FEEDBACK_SLIDER}
               />
             </div>
+            <FindThePerfectBrand/>
           </div>
           <Footer />
         </>

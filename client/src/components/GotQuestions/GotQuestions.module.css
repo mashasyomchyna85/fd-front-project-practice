@@ -1,0 +1,90 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    width: 830px;
+    height: 230px;
+    background: linear-gradient(271.19deg,#307DF6 0%,#14BBBF 100%),#343434;
+    box-shadow: 0 16px 32px rgba(48,127,245,.16);
+    border-radius: 24px;
+    color: white;
+    box-sizing: border-box;
+}
+
+.leftPart {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rightPart {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.textH3{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 20px;
+    opacity: .8;
+}
+
+.textIcon {
+    margin-left: 10px;
+}
+
+
+.btn {
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid white;
+    height: 50px;
+    width: 220px;
+    border-radius: 8px;
+    line-height: 48px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+
+.btn:hover {
+    background-color: azure;
+    color:black;
+}
+
+
+.btnIcon {
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700; 
+    background-color: rgba(255,255,255,.08);
+    border-radius: 8px;
+    line-height: 48px;
+    cursor: pointer;
+    margin: 10px 0; 
+}
+
+.btnIcon:hover {
+    background: rgba(255, 255, 255, 0.162);
+    transition: all ease 0.3s;
+}
+
+
+.href {
+    width: 20px;
+    height: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    padding-left: 20px;
+}
